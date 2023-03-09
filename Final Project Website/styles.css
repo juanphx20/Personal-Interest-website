@@ -63,56 +63,54 @@ body {
   background-color: #eeeeee;
 }
 
-.wireframe {
+
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-for-section1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* flex, margin, padding, and styles for image and paragraph section cards  */
+
+  .paragraph-styles1 {
+  font-family: Georgia;
+  font-size: 1.3em;
+  padding: 40px;
+}
+.imagecard-figure1{
+
+}
+
+ .wireframe {
   border: solid black 3px;
   margin: 10px;
 }
 .wireboxes {
-  border: solid red 3px;
-  max-width: 854px;
-  max-height: 480px;
-}
 
-.div1-1 {
-  display: flex;
-  flex-direction: column;
-}
-
-.div1-2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.div1-3 {
-  display: flex;
-  flex-direction: column;
-}
-
-.div1-4 {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-for-section1-1 {
-  display: flex;
-  justify-content: space-around;
-}
-.flex-for-section1-2 {
-  display: flex;
-  justify-content: space-around;
+  max-width: 500px;
+  max-height: auto;
 }
 .title1 {
   color: black;
   padding: 0 0 0 0;
   margin: 100px 0 100px 0;
 }
-.paragraph-styles1 {
-  font-family: Georgia;
-  font-size: 1.3em;
-  padding: 40px;
-}
+
+/* landingimage styles */
 
 .landing-image1-1 {
   display: flex;
   justify-content: space-around;
+
+}
+#landingimage1{
+max-width: 1280px;
+max-height: auto;
+width: 100%;
 }
