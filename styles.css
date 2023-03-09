@@ -1,0 +1,121 @@
+/* Index.html CSS style section  */
+/* Index.html CSS style section  */
+/* Index.html CSS style section  */
+/* Index.html CSS style section  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+.showcase {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  .showcase {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .showcase {
+    width: auto;
+    height: 100%;
+  }
+}
+
+h1 {
+  font-family: Georgia;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 180px;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* Home.html CSS style section */
+/* Home.html CSS style section */
+/* Home.html CSS style section */
+/* Home.html CSS style section */
+
+.nav-ul1 {
+  display: flex;
+  list-style: none;
+  padding: 15px 10px 15px 10px;
+  margin-top: 0;
+  justify-content: flex-end;
+  font-size: 1.5em;
+}
+.nav-ul-li1 {
+  padding: 0 10px 0 10px;
+}
+.nav1 {
+  background-color: rgb(194, 193, 191);
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-for-section1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 160px 0 160px;
+}
+
+/* flex, margin, padding, and styles for image and paragraph section cards  */
+
+  .paragraph-styles1 {
+  font-family: Georgia;
+  font-size: 1.3em;
+  padding: 40px;
+}
+.imagecard-figure1{
+  width: 100%;
+  max-width: 500;
+  max-height: auto;
+
+}
+
+ .wireframe {
+  border: solid black 3px;
+  margin: 10px;
+}
+.wireboxes {
+
+  max-width: 500px;
+  max-height: auto;
+}
+.title1 {
+  color: black;
+  padding: 0 0 0 0;
+  margin: 100px 0 100px 0;
+}
+
+/* landingimage styles */
+
+.landing-image1-1 {
+  display: flex;
+  justify-content: space-around;
+
+}
+#landingimage1{
+max-width: 1280px;
+max-height: auto;
+width: 100%;
+}
+
