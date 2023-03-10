@@ -35,13 +35,23 @@ h1 {
 }
 a {
   text-decoration: none;
-  color: whitesmoke;
 }
+#landing-page-title-color {
+  color: whitesmoke;
+  font-family: "Lobster", cursive;
+  font-size: 1.5em;
+}
+/* Home.html CSS style section */
+/* Home.html CSS style section */
+/* Home.html CSS style section */
+/* Home.html CSS style section */
 
-/* Home.html CSS style section */
-/* Home.html CSS style section */
-/* Home.html CSS style section */
-/* Home.html CSS style section */
+#git-logo {
+  width: 100%;
+  width: 70%;
+  height: auto;
+  padding: 5px 0 0 10px;
+}
 
 .nav-ul1 {
   display: flex;
@@ -52,18 +62,26 @@ a {
   font-size: 1.5em;
 }
 .nav-ul-li1 {
-  padding: 0 10px 0 10px;
+  padding: 0 10px 0 25px;
+}
+.nav-a1 {
+  color: black;
 }
 .nav1 {
-  background-color: rgb(194, 193, 191);
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
 }
+
 body {
   padding: 0;
   margin: 0;
   background-color: #eeeeee;
 }
 
-
+li {
+  font-family: sans-serif;
+}
 
 .div1 {
   display: flex;
@@ -79,26 +97,24 @@ body {
 
 /* flex, margin, padding, and styles for image and paragraph section cards  */
 
-  .paragraph-styles1 {
-  font-family: Georgia;
+.paragraph-styles1 {
+  font-family: sans-serif;
   font-size: 1.3em;
   padding: 40px;
 }
-.imagecard-figure1{
+.imagecard-figure1 {
   width: 100%;
-  max-width: 500;
-  max-height: auto;
-
+  max-width: 500px;
+  height: auto;
 }
 
- .wireframe {
+.wireframe {
   border: solid black 3px;
   margin: 10px;
 }
 .wireboxes {
-
   max-width: 500px;
-  max-height: auto;
+  height: auto;
 }
 .title1 {
   color: black;
@@ -111,11 +127,9 @@ body {
 .landing-image1-1 {
   display: flex;
   justify-content: space-around;
-
 }
-#landingimage1{
-max-width: 1280px;
-max-height: auto;
-width: 100%;
+#landingimage1 {
+  max-width: 1280px;
+  height: auto;
+  width: 100%;
 }
-
