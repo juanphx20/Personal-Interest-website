@@ -109,8 +109,9 @@ li {
 }
 
 .wireframe {
-  border: solid black 3px;
-  margin: 10px;
+  /* border: solid black 3px;*/
+  margin: 80px;
+  background-color: white;
 }
 .wireboxes {
   max-width: 500px;
@@ -122,6 +123,10 @@ li {
   margin: 100px 0 100px 0;
 }
 
+.box-shadow {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+}
+
 /* landingimage styles */
 
 .landing-image1-1 {
@@ -129,7 +134,39 @@ li {
   justify-content: space-around;
 }
 #landingimage1 {
-  max-width: 1280px;
+  max-width: 1600px;
   height: auto;
   width: 100%;
 }
+.h2-1 {
+  padding-top: 15px;
+}
+
+/* section for page 1 */
+/* section for page 1 */
+/* section for page 1 */
+/* section for page 1 */
+
+.flexbox-page {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 200px;
+}
+.Paragraph-box-pages {
+  width: 900px;
+}
+.card-imagespages {
+  width: 100%;
+  min-width: 400px;
+  height: auto;
+}
+/* section for page 2 */
+/* section for page 2 */
+/* section for page 2 */
+/* section for page 2 */
+
+/* section for about page  */
+/* section for about page  */
+/* section for about page  */
+/* section for about page  */
